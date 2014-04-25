@@ -1,6 +1,6 @@
 <?php
 
-$con = mysqli_connect("localhost","root","","pinboards");
+$con = mysqli_connect("localhost","root","root","pinboards");
 echo "connected";
 
 if (mysqli_connect_errno($con))
