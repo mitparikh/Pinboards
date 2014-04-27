@@ -9,6 +9,7 @@ $searchText = $_POST['tagOfPicture'];
 	if (mysqli_connect_errno($con))
 	{
 		echo "Failed to connect to MySQL: " . mysqli_connect_error();
+        //Just wanted to check if the github link corresponds to this change or not.
 	}
 	$query_to_search_for_pins = "SELECT pin.pinid, pictures.pid, pin.boardid
 									FROM pin
